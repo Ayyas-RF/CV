@@ -1,18 +1,14 @@
 import { useState } from "react";
-import Header from "./Components/Header";
-import Profile from "./Components/Profile";
-import Footer from "./Components/Footer.jsx";
+import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
 
 const App = () => {
-    const [count, setCount] = useState(0);
-
-    return (
-        <>
-            <Header />
-            <Profile />
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Navbar />
+      <Jumbotron />
+    </>
+  );
 };
 
 export default App;
