@@ -28,7 +28,7 @@ const Jumbotron = () => {
   const greetingText = texts[language].greeting.split("");
 
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-900 overflow-hidden">
       <img
         className="rounded-full w-48 h-48 mx-auto mt-10 object-cover"
         src="src/assets/pp.jpg"
