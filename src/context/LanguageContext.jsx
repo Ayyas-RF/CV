@@ -1,8 +1,6 @@
-// src/context/LanguageContext.js
-
 import React, { createContext, useContext, useState } from 'react';
 
-// Default language (English)
+// Default - English
 const defaultLanguage = 'en';
 
 // Create a Language Context

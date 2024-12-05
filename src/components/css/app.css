@@ -1,5 +1,3 @@
-/* src/App.css */
-
 /* Default light mode styles */
 body {
   background-color: white;
@@ -12,7 +10,6 @@ body.dark {
   color: white;
 }
 
-/* Additional dark mode specific styles */
 .dark .bg-white {
   background-color: #1f1f1f; /* Dark background for light elements */
 }
@@ -24,5 +21,3 @@ body.dark {
 .dark .text-gray-900 {
   color: #e5e5e5; /* Lighter text color for dark mode */
 }
-
-/* You can add more dark mode specific styles as needed */

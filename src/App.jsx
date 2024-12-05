@@ -1,12 +1,11 @@
 import { useState } from "react";
+import { LanguageProvider } from "./context/LanguageContext";
+import { DarkModeProvider } from "./context/DarkModeContext";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import Stack from "./components/Stack";
-import { LanguageProvider } from "./context/LanguageContext";
-import { DarkModeProvider } from "./context/DarkModeContext";
-import "./components/css/app.css";
 import Card from "./components/Card";
-// import ParallaxRocket from "./components/ParallaxRocket";
+import "./components/css/app.css";
 
 const App = () => {
   return (
