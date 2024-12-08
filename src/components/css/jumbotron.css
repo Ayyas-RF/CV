@@ -5,8 +5,14 @@
 }
 
 @keyframes wave-sequence {
+<<<<<<< Updated upstream
   0%, 100% {
     transform: translateY(0); /* Start and end at the same position */
+=======
+  0%,
+  100% {
+    transform: translateY(0);
+>>>>>>> Stashed changes
   }
   50% {
     transform: translateY(-10px); /* Move upward */

@@ -1,9 +1,16 @@
+<<<<<<< Updated upstream
 // src/context/LanguageContext.js
 
 import React, { createContext, useContext, useState } from 'react';
 
 // Default language (English)
 const defaultLanguage = 'en';
+=======
+import React, { createContext, useContext, useState } from "react";
+
+// Default - English
+const defaultLanguage = "en";
+>>>>>>> Stashed changes
 
 // Create a Language Context
 const LanguageContext = createContext();
@@ -16,7 +23,7 @@ export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(defaultLanguage);
 
   // Toggle between English and Indonesian
-  const toggleLanguage = (lang) => {
+  const toggleLanguage = lang => {
     setLanguage(lang);
   };
 
