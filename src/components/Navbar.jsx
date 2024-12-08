@@ -8,14 +8,14 @@ const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const handleLanguageChange = (lang) => {
+  const handleLanguageChange = lang => {
     toggleLanguage(lang);
     setIsDropdownOpen(false);
   };
 
   const navItems = {
     en: ["About", "Skills", "Experience", "Education", "Contact"],
-    id: ["Tentang", "Keterampilan", "Pengalaman", "Pendidikan", "Kontak"],
+    id: ["Tentang", "Keterampilan", "Pengalaman", "Pendidikan", "Kontak"]
   };
 
   return (
@@ -104,7 +104,6 @@ const Navbar = () => {
               <ul className="py-2 font-medium" role="none">
                 <li>
                   <a
-                    href="#"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                     onClick={() => handleLanguageChange("en")}
                   >
@@ -113,7 +112,6 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                     onClick={() => handleLanguageChange("id")}
                   >
