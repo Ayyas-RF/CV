@@ -79,15 +79,8 @@ const Card = () => {
   }, []);
 
   return (
-<<<<<<< Updated upstream
-    <div className="overflow-hidden items-center justify-center md:justify-between min-h-screen px-4 mt-5">
-      {/* Card */}
-      <div className="card w-full md:w-1/2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        {/* Tabs */}
-=======
     <div className="mt-5 flex flex-col md:flex-row md:justify-between md:items-start gap-6">
       <div className="card w-full md:w-2/3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
->>>>>>> Stashed changes
         <ul
           className="flex flex-wrap text-sm font-medium text-center text-gray-500 border-b border-gray-200 bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:bg-gray-800"
           role="tablist"
@@ -144,7 +137,6 @@ const Card = () => {
           </li>
         </ul>
 
-        {/* Tab Content */}
         <div className="p-4 bg-white dark:bg-gray-800 rounded-lg">
           {activeTab === "about" && (
             <div data-aos="fade-right">

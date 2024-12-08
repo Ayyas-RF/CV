@@ -1,10 +1,4 @@
-<<<<<<< Updated upstream
-// src/context/DarkModeContext.js
-
-import React, { createContext, useContext, useState, useEffect } from 'react';
-=======
 import React, { createContext, useContext, useState, useEffect } from "react";
->>>>>>> Stashed changes
 
 const DarkModeContext = createContext();
 

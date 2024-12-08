@@ -1,16 +1,7 @@
-<<<<<<< Updated upstream
-// src/context/LanguageContext.js
-
-import React, { createContext, useContext, useState } from 'react';
-
-// Default language (English)
-const defaultLanguage = 'en';
-=======
 import React, { createContext, useContext, useState } from "react";
 
 // Default - English
 const defaultLanguage = "en";
->>>>>>> Stashed changes
 
 // Create a Language Context
 const LanguageContext = createContext();

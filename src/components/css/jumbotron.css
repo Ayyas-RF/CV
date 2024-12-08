@@ -1,20 +1,15 @@
 .wave-char {
-  display: inline-block; /* Ensure each character is treated as a block */
-  animation: wave-sequence 0.3s ease-in-out forwards; /* Single wave */
-  margin-right: 0.02em; /* Add spacing between characters */
+  display: inline-block;
+  animation: wave-sequence 0.3s ease-in-out forwards;
+  margin-right: 0.02em;
 }
 
 @keyframes wave-sequence {
-<<<<<<< Updated upstream
-  0%, 100% {
-    transform: translateY(0); /* Start and end at the same position */
-=======
   0%,
   100% {
     transform: translateY(0);
->>>>>>> Stashed changes
   }
   50% {
-    transform: translateY(-10px); /* Move upward */
+    transform: translateY(-10px);
   }
 }
